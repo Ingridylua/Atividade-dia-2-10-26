@@ -1,0 +1,14 @@
+# exercício 1
+tecnologias = {'Python', 'SQL', 'Git', 'Docker', 'Linux'}
+tecnologias.add('FastAPI')
+tecnologias.discard('SQL')
+for item in tecnologias:
+    print(item)
+print(sorted(tecnologias))
+# exercício 2
+backend = {'Python', 'SQL', 'Docker', 'Linux', 'Git'}
+cloud = {'Docker', 'Linux', 'AWS', 'Terraform', 'Git'}
+print(backend.union(cloud))
+print(backend.intersection(cloud))
+print(backend.difference(cloud))
+print(backend.symmetric_difference(cloud))
